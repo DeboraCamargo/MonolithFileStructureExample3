@@ -3,21 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpikeMono3", "SpikeMono3\SpikeMono3.csproj", "{95A062A7-ED49-46BC-AC3D-A430CD16CF0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpikeMono3", "SpikeMono3\SpikeMono3.csproj", "{95A062A7-ED49-46BC-AC3D-A430CD16CF0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products.Contract", "Products.Contract\Products.Contract.csproj", "{CEC0EAA3-2A02-4A70-8095-3220F558E455}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Products.Contract", "Products.Contract\Products.Contract.csproj", "{CEC0EAA3-2A02-4A70-8095-3220F558E455}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Contract", "Sales.Contract\Sales.Contract.csproj", "{B05486A6-E515-4F5D-A769-0D2AEF11B9D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.Contract", "Sales.Contract\Sales.Contract.csproj", "{B05486A6-E515-4F5D-A769-0D2AEF11B9D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products", "Products\Products.csproj", "{B53BCB66-ACE4-4600-8F6A-0C0ACD4FBCC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Products", "Products\Products.csproj", "{B53BCB66-ACE4-4600-8F6A-0C0ACD4FBCC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales", "Sales\Sales.csproj", "{4FF73355-FAD9-4A7B-B9AF-967E018AA02A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales", "Sales\Sales.csproj", "{4FF73355-FAD9-4A7B-B9AF-967E018AA02A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Tests", "Product.Tests\Product.Tests.csproj", "{8B92242A-FEF7-4822-9671-FA165F985936}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product.Tests", "Product.Tests\Product.Tests.csproj", "{8B92242A-FEF7-4822-9671-FA165F985936}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Tests", "Sales.Tests\Sales.Tests.csproj", "{EA5664EC-477B-46B3-840E-C7512DC97E48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.Tests", "Sales.Tests\Sales.Tests.csproj", "{EA5664EC-477B-46B3-840E-C7512DC97E48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpikeMono3.Tests", "SpikeMono3.Tests\SpikeMono3.Tests.csproj", "{B738CD3E-5BF4-425F-9667-DF98CB1FE6C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpikeMono3.Tests", "SpikeMono3.Tests\SpikeMono3.Tests.csproj", "{B738CD3E-5BF4-425F-9667-DF98CB1FE6C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{667215AE-9E0E-401A-A2C4-7D92FCA27C44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sale", "Sale", "{886F71C6-D2BA-4697-9AE9-C5C58961BEB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +64,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEC0EAA3-2A02-4A70-8095-3220F558E455} = {667215AE-9E0E-401A-A2C4-7D92FCA27C44}
+		{B05486A6-E515-4F5D-A769-0D2AEF11B9D6} = {886F71C6-D2BA-4697-9AE9-C5C58961BEB0}
+		{B53BCB66-ACE4-4600-8F6A-0C0ACD4FBCC8} = {667215AE-9E0E-401A-A2C4-7D92FCA27C44}
+		{4FF73355-FAD9-4A7B-B9AF-967E018AA02A} = {886F71C6-D2BA-4697-9AE9-C5C58961BEB0}
+		{8B92242A-FEF7-4822-9671-FA165F985936} = {667215AE-9E0E-401A-A2C4-7D92FCA27C44}
+		{EA5664EC-477B-46B3-840E-C7512DC97E48} = {886F71C6-D2BA-4697-9AE9-C5C58961BEB0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E3487241-AD06-4BD2-BCE6-BF635808846B}
